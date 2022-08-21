@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <link rel="stylesheet" href="style/game.css">
+    <link rel="stylesheet" href="style/shop.css">
+</head>
+<body>
+
+<div id="game">
+    <div id="field">
+        <div id="div"></div>
+        <div id="orb"><text></text></div>
+        <text>Go</text>
+    </div>
+    <div id="result">
+        <text id="point">Очки: <text id="pointH">0</text></text>
+        <text class="plus" id="plus1">+</text>
+        <text class="plus" id="plus2">+</text>
+        <text class="plus" id="plus3">+</text>
+        <text class="plus" id="plus4">+</text>
+        <text class="plus" id="plus5">+</text>
+        <text id="record">Рекорд: <text id="recordH">0</text></text>
+        <img src="style/confetti.gif" id="confetti">
+        <text id="extraH">Набрано: 0</text>
+    </div>
+    <div id="explanationH">
+        <text>ОЧКИ</text>
+        <text></text>
+    </div>
+</div>
+<div id="shop">
+        <div id="headerShop">
+            <div style="background-color: red">М</div>
+            <div style="background-color: orange">А</div>
+            <div style="background-color: yellow">Г</div>
+            <div style="background-color: green">А</div>
+            <div style="background-color: cornflowerblue">З</div>
+            <div style="background-color: blue">И</div>
+            <div style="background-color: rebeccapurple">Н</div>
+        </div>
+    <div id="colors">
+        <div class="div" style="background-color: #ff8063"><text>150</text></div>
+        <div class="div" style="background-color: #71cb71"><text>150</text></div>
+        <div class="div" style="background-color: #f1f147"><text>150</text></div>
+        <div class="div" style="background-color: #f865f8"><text>150</text></div>
+        <div class="div" style="background:
+    linear-gradient(to bottom, rgb(35,93,238) 50%, #eac925 50%)"><text>150</text></div>
+        <div class="div" style="background-color: #5b5b5b"><text>150</text></div>
+
+        <div class="div" style="background-color: #fc763e"><text>150</text></div>
+        <div class="div" style="background-color: #59c559"><text>150</text></div>
+        <div class="div" style="background-color: #f6b846"><text>150</text></div>
+        <div class="div" style="background-color: #6d4ee1"><text>150</text></div>
+        <div class="div" style="background-color: #2b63f3"><text>150</text></div>
+        <div class="div" style="background-color: #3a3a3a"><text>150</text></div>
+
+        <div class="div" style="background-color: #d75f09"><text>150</text></div>
+        <div class="div" style="background-color: #26a426"><text>150</text></div>
+        <div class="div" style="background-color: #9d620a"><text>150</text></div>
+        <div class="div" style="background-color: #3720c9"><text>150</text></div>
+        <div class="div" style="background-color: #324bb2"><text>150</text></div>
+        <div class="div" style="background-color: #262626"><text>150</text></div>
+    </div>
+    <div id="theme">
+        <div id="dark"><text>Темная</text><text>500</text></div>
+        <div id="grey"><text>Серая</text><text>500</text></div>
+        <div id="white"><text>Светлая</text><text>500</text></div>
+    </div>
+    <div id="mode">
+        <div class="orb" id="mode0">2</div><text>Режим в котором у тебя есть 2 секунды что-бы споймать орб.<br> Поимка орба = 1 очко</text>
+        <div class="orb" id="mode1">1</div><text>Режим в котором у тебя всего 1 секунда что-бы споймать орб.<br> Поимка орба = 5 очков. Hужно иметь 12 очков рекорда</text>
+    </div>
+</div>
+<script src="logic/jquery-3.6.0.min.js"></script>
+<script src="logic/main.js"></script>
+<script src="logic/shop.js"></script>
+<script src="logic/controls.js"></script>
+<script src="logic/config.js"></script>
+<script src="logic/spawn.js"></script>
+</body>
+</html>
