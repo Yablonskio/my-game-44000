@@ -1,7 +1,7 @@
-var secNeed = 0;
-var secToRespawn = 0;
-var secondRec = 15;
-var pointsTake = Number(localStorage.getItem('TakeRecordPoint')) || 0;
+let secNeed = 0;
+let secToRespawn = 0;
+let secondRec = 15;
+let pointsTake = Number(localStorage.getItem('TakeRecordPoint')) || 0;
 let pointA = points + 5;
 function eat() {
     plusCoordinates(mode)
